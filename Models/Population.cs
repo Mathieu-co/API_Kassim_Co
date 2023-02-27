@@ -1,13 +1,17 @@
 ﻿using System;
-
-public class Population
+namespace API_Kassim_Co.Models
 {
-	public int Id_pop { get; set; }
-	public string Name { get; set; }
-	public int Population { get; set; }
-	public Pays Pays { get; set; }
+	public class Population
+	{
+		public int Id_pop { get; set; }
+		public string Name { get; set; }
+		public int Pop { get; set; }
+		public Pays Pays { get; set; }
 
-	public Population(string n, int pop, Pays py) { 
-	Name = n; Population = pop; Pays = py;
+		public Population(string n, int popu, Pays py)
+		{
+			Name = n; Pop = popu; Pays = py;
+		}
 	}
+
 }

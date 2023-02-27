@@ -1,6 +1,5 @@
-﻿namespace API_Kassim_Co.Models
-using System;
-
+﻿using System;
+namespace API_Kassim_Co.Models
 {
     public class Continent
     {
