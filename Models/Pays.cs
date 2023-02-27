@@ -7,9 +7,9 @@ namespace API_Kassim_Co.Models
     {
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        public string Nom { get; set; }
 
-        public Continent continent { get; set; }
+        
 
 
     }

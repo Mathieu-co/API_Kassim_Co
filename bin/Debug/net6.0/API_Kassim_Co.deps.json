@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "API_Kassim_Co/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.14",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.12",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -924,15 +924,15 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/6.0.14": {
+      "Microsoft.EntityFrameworkCore.SqlServer/6.0.13": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.14"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "6.0.14.0",
-            "fileVersion": "6.0.1423.6205"
+            "assemblyVersion": "6.0.13.0",
+            "fileVersion": "6.0.1322.58004"
           }
         }
       },
@@ -2536,12 +2536,12 @@
       "path": "microsoft.entityframeworkcore.relational/6.0.14",
       "hashPath": "microsoft.entityframeworkcore.relational.6.0.14.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/6.0.14": {
+    "Microsoft.EntityFrameworkCore.SqlServer/6.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JHXK+Zr/8hBxun8x0dg8RoC3LyYzAX3dLFUq/1xLVzep1weA6uOPuMbay8Aagw02jZF4nELvecP7qmIkY+xpVA==",
-      "path": "microsoft.entityframeworkcore.sqlserver/6.0.14",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.14.nupkg.sha512"
+      "sha512": "sha512-bbygVoqSEfJM11ZhUOkl8yZNccDOeNnhyJnGz33ekJusbo7CD37UNtvCVXgAi9yt5/QMP99OevU+JbO78URQUQ==",
+      "path": "microsoft.entityframeworkcore.sqlserver/6.0.13",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.13.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Tools/6.0.14": {
       "type": "package",

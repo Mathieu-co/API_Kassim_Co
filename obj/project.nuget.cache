@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f8mdtXGXnwmTzBGoWjC82spw5nLSxd/4PwB5znDHjeYtBBn0uPbeB9/hELW5abagXnsFTsGgSkMMkHgsqTQShw==",
+  "dgSpecHash": "YZS7piqmzaift6Cc8t4idCZc731Kzrj+bTEyrkukgPB2wEAtqZiBQsYFSgfhQ3i/WwE1Gx+bR2zAvzTq5yMLzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\36999704\\source\\repos\\Mathieu-co\\API_Kassim_Co\\API_Kassim_Co.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,7 @@
     "C:\\Users\\36999704\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.14\\microsoft.entityframeworkcore.analyzers.6.0.14.nupkg.sha512",
     "C:\\Users\\36999704\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.14\\microsoft.entityframeworkcore.design.6.0.14.nupkg.sha512",
     "C:\\Users\\36999704\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.14\\microsoft.entityframeworkcore.relational.6.0.14.nupkg.sha512",
-    "C:\\Users\\36999704\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.14\\microsoft.entityframeworkcore.sqlserver.6.0.14.nupkg.sha512",
+    "C:\\Users\\36999704\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.13\\microsoft.entityframeworkcore.sqlserver.6.0.13.nupkg.sha512",
     "C:\\Users\\36999704\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.14\\microsoft.entityframeworkcore.tools.6.0.14.nupkg.sha512",
     "C:\\Users\\36999704\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\36999704\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
