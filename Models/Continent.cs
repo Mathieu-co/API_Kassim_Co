@@ -8,11 +8,15 @@ using System
 
         public string Nom { get; set; } 
 
+        ICollection<Pays> paysList;
+
         public class Pays : Continent
         {
             public int Id_p { get; set; }
 
             public string Name { get; set; }
+            
+            ICollection<Population> popList;
 
 
         }
