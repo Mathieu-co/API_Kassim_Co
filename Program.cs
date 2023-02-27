@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using API_Kassim_Co.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<API_Kassim_CoContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("API_Kassim_CoContext") ?? throw new InvalidOperationException("Connection string 'API_Kassim_CoContext' not found.")));
 
 // Add services to the container.
 
