@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\36999704\\source\\repos\\API_Kassim_Co\\API_Kassim_Co\\API_Kassim_Co.csproj": {}
+    "C:\\Users\\36999704\\Source\\Repos\\Mathieu-co\\API_Kassim_Co\\API_Kassim_Co.csproj": {}
   },
   "projects": {
-    "C:\\Users\\36999704\\source\\repos\\API_Kassim_Co\\API_Kassim_Co\\API_Kassim_Co.csproj": {
+    "C:\\Users\\36999704\\Source\\Repos\\Mathieu-co\\API_Kassim_Co\\API_Kassim_Co.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\36999704\\source\\repos\\API_Kassim_Co\\API_Kassim_Co\\API_Kassim_Co.csproj",
+        "projectUniqueName": "C:\\Users\\36999704\\Source\\Repos\\Mathieu-co\\API_Kassim_Co\\API_Kassim_Co.csproj",
         "projectName": "API_Kassim_Co",
-        "projectPath": "C:\\Users\\36999704\\source\\repos\\API_Kassim_Co\\API_Kassim_Co\\API_Kassim_Co.csproj",
+        "projectPath": "C:\\Users\\36999704\\Source\\Repos\\Mathieu-co\\API_Kassim_Co\\API_Kassim_Co.csproj",
         "packagesPath": "C:\\Users\\36999704\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\36999704\\source\\repos\\API_Kassim_Co\\API_Kassim_Co\\obj\\",
+        "outputPath": "C:\\Users\\36999704\\Source\\Repos\\Mathieu-co\\API_Kassim_Co\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
