@@ -3,6 +3,8 @@ using Microsoft.Extensions.DependencyInjection;
 using API_Kassim_Co.Data;
 using System;
 using System.Linq;
+using API_Kassim_Co.Models;
+
 namespace API_BDTN.Models;
 public static class SeedData // Ajout d’une nouvelle classe SeedData dans Models pour créer la base et ajouter un film si besoin
 {
@@ -13,46 +15,52 @@ public static class SeedData // Ajout d’une nouvelle classe SeedData dans Mode
         DbContextOptions<API_Kassim_CoContext>>()))
         {
             context.Database.EnsureCreated();
+
             // S’il y a déjà des films dans la base
-            if (context.Continent.Any())
+            if (!context.Population.Any())
             {
-                return; // On ne fait rien
+                context.Population.AddRange(
+                new Population
+                {
+                    Nom = "francais",
+                    Pop = 68000000
+                }
+                );
+            }
+           //
+
+
+            if (!context.Continent.Any())
+            {
+                context.Continent.AddRange(
+                new Continent
+                {
+                    Nom = "Europe",
+                    paysList = new List<Pays> {
+                    new Pays { Nom = "Allemagne",
+                               pop = new Population { Nom = "allemande", Pop = 80000000} } }
+                }
+                );
+            }
+
+            // S’il y a déjà des films dans la base
+            if (!context.Pays.Any())
+            {
+                context.Pays.AddRange(
+                new Pays
+                {
+                    Nom = "France",
+                    pop = new Population
+                    {
+                        Nom = "francais",
+                        Pop = 68000000
+                    }
+                }
+                );
             }
             // Sinon on en ajoute un
-            context.Continent.AddRange(
-            new API_Kassim_Co.Models.Continent
-            {
-                Nom = "Europe"
-            }
-            );
-
-            if (context.Pays.Any())
-            {
-                return; // On ne fait rien
-            }
-            // Sinon on en ajoute un
-            context.Pays.AddRange(
-            new API_Kassim_Co.Models.Pays
-            {
-                Nom = "France"
-            }
-            );
-
-         
 
 
-            if (context.Population.Any())
-            {
-                return; // On ne fait rien
-            }
-            // Sinon on en ajoute un
-            context.Population.AddRange(
-            new API_Kassim_Co.Models.Population
-            {
-                Nom = "Français",
-                Pop = 67000000
-            }
-            );
 
             context.SaveChanges();
         }

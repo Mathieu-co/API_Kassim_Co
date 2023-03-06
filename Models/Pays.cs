@@ -9,7 +9,7 @@ namespace API_Kassim_Co.Models
 
         public string Nom { get; set; }
 
-        
+        public Population pop { get; set; }
 
 
     }

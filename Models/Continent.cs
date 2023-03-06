@@ -7,7 +7,7 @@ namespace API_Kassim_Co.Models
 
         public string Nom { get; set; } 
 
-        public ICollection<Pays> paysList { get; set; }
+        public List<Pays> paysList { get; set; }
 
 
 
