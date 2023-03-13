@@ -11,6 +11,6 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>API_Kassim_Co.Data.API_Kassim_CoContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
-    <NameOfLastUsedPublishProfile>APIKassimCo - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\36958185\Source\Repos\API_Kassim_Co\.github\workflows\APIKassimCo.yml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
