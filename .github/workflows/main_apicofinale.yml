@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'apicofinale'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_179A979133F14F11A25B528318CD7847 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B2B989D90BD84E9A92AF71D256A4AEA7 }}
           package: .
